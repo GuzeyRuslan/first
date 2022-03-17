@@ -8,6 +8,8 @@ def sum_factorial(num):
         summa += part_fact
     return summa
 
+print(summa)
+
 
 number = int(input("Введите число: "))
 print(sum_factorial(number))
