@@ -6,9 +6,10 @@ def sum_factorial(num):
     for i in range(1, num + 1):
         part_fact *= i
         summa += part_fact
+        print(summa)
     return summa
 
-print(summa)
+
 
 
 number = int(input("Введите число: "))
